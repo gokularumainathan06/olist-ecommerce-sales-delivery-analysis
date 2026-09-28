@@ -1,0 +1,11 @@
+# Raw data (large files, download from Kaggle instead)
+data/*.csv
+!data/.gitkeep
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
